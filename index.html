@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="./Css/SkinCare.css" rel="stylesheet"></link>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+</head>
+<body>
+
+  <nav>
+    <img src="./Images/logoImg.png" alt="" class="nav-logo-img"/>
+    <ul  class="nav-stage-300" id="display">
+      <li class=""><a href="#">About us</a></li>
+      <li class="nav-ul-stage-600"><a href="#">Our Expertise</a></li>
+      <li class="nav-ul-stage-600"><a href="#">Testimonials</a></li>
+      <li class="nav-ul-stage-600"><a href="#">Skin & Hair</a></li>
+      <li ><a href="#">Shop</a></li>
+    </ul>
+    <ul  class="nav-stage-400" id="display1">  
+      <li class="nav-ul-li-1  nav-ul-stage-600"><a href="#"><i class='bx bx-plug'></i></a></li>
+      <li class="nav-ul-li-1"><a href="#"><i class='bx bx-bell nav-bell'><span>.</span> <h class="nav-li-h">Notification</h></i></a></li>
+      <li class="nav-ul-li-2"><a href="#">Sign up</a></li>
+      <li class="nav-ul-li-2"><a href="#">Contact us</a></li>
+    </ul>
+    <i class='bx bx-menu nav-menu'></i>
+    <input type="checkbox" class="checkbox" id="checkbox" onclick="displayvalue()">
+  </nav>
+
+
+</body>
+
+<script>
+
+function displayvalue(){
+
+  var value=document.getElementById("checkbox")
+ if(value.checked){
+    document.getElementById("display").style.display="block"
+    document.getElementById("display1").style.display="block"
+ }
+ else{
+  document.getElementById("display").style.display="none"
+    document.getElementById("display1").style.display="none"
+ }
+}
+
+</script>
+</html>
