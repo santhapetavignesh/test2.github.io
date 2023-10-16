@@ -17,7 +17,6 @@ nav li{
     margin: 0 8px;
     line-height: 80px;
 }
-
 nav a{
     color: black;
     font-size: 15px;
@@ -33,7 +32,6 @@ nav a{
     padding: 7px 10px;
     border-radius:80%;
 }
-
 .nav-ul-li-2 a{
     border:1px solid rgb(239, 214, 168);
     padding: 5px 5px;
@@ -52,7 +50,6 @@ nav a:hover{
     border: 2px solid rgb(16, 12, 67);
     transition: .5s;
 }
-
 nav .nav-menu{
    margin: auto;
     font-size: 30px;
@@ -64,12 +61,10 @@ nav .nav-menu{
 .checkbox{
     display: none;
 }
-
 .section1{
     height:483px;
     width: 100%;
     background-color: rgb(253, 250, 245);
-
     display: flex;
     justify-content: space-around;
     font-family:sans-serif;
@@ -86,15 +81,15 @@ nav .nav-menu{
 .section2-block2{
     width: 40%;
 }
-section img{
+.section1 img{
     height: 60%;
     margin-top: 15%;
 }
-section p{
+.section1 p{
     margin-top: 5%;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-section button{
+.section1 button{
     margin-top: 3%;
     width: 25%;
     height: 8%;
@@ -103,17 +98,78 @@ section button{
     display: flex;
     background-image: linear-gradient(to right, rgb(227, 182, 167) , rgb(237, 190, 181), rgb(244, 217, 200));
 }
-section button p{
+.section1 button p{
     margin: 6% 0px 0px 18px;
     font-size: 13px;  
     font-weight: 600;
 }
-section span{
+.section1 span{
     margin: 5px 0px 0px 13px;
     font-size: 24px;
     
 }
+.section2{
+    width: 100%;
+    height:350px;
+    display: flex;
+}
+.section2-block1{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+.section2-block1 h2{
+   width: 50%;
+   margin: 50px auto 0px 15%;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+}
+.section2-block1 p{
+    width: 70%;
+    margin:20px 15%;
+    flex-wrap: wrap;
+    font-size: 15px; 
+    font-family:Arial, Helvetica, sans-serif;
+    color: gray;
+ }
+.section2-block2 img{
+    width: 60%;
+    height:300px;
+    margin:60px;
+   border-radius: 500%; 
+}
+.section2-block1-row3{
+        width: 100%;
+        height: 20%;
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-around;
+        margin-left: 5%;
+}
+.section2-block1-row3-items{
+    width: 25%;
+    height: 100%;
+    display:inline-flex;
+}
+.section2-block1-row3-items img{
+    width: 40%;
+    height: 100%;
+    border: 1px solid gray;
+    border-radius: 90%;
+}
 
+.section2-block1-row3-items p{
+    color: black;
+    width: 100px;
+    height: 100%;
+    font-size: 15px;
+    margin-left: -0px;
+    margin-top: -0px;
+    margin-right: -0px;
+    margin-left: 12px;
+    line-height: 16px;
+    font-weight: 500; 
+    margin-top: 10px; 
+}
 @media (max-width: 300px) {
     nav img{
         margin-top: 10px;   
@@ -131,8 +187,8 @@ section span{
         margin-top: 25px;
         width:100%;
     }
+   
 }
-
 @media (max-width: 500px) {
     .nav-bell .nav-li-h{
         display: inline-block;
@@ -149,10 +205,9 @@ section span{
         display: block;
         z-index: 1;
     }
-    ul{
+    nav ul{
         display: none;
     }
-  
     nav {
       width: 100%;
       height: 80px; 
@@ -199,10 +254,6 @@ section span{
         grid-column:2/3 ;
         grid-row:3/4 ;
     }
-    /* nav li a:hover{
-        border-bottom: 2px solid rgb(19, 19, 49);
-        transition: .1s;
-    } */
     .checkbox{
         display:block ;
         grid-column:2/3 ;
@@ -214,7 +265,6 @@ section span{
     }
     .section1 h1{
         font-size: 18px;
-        
     }
     .section1 img{
         display: none;
@@ -222,9 +272,34 @@ section span{
     .section1-p1{
         display: none;
     } 
+   .section2-block2 img{
+    display: none;
+   } 
+   .section2-block1{
+    width: 100%;
+   }
+   .section2-block1-row3{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+   }
+   .section2-block1-row3-items{
+    margin-left: 10%;
+    width: 80%;
+    height: 25%;
+    flex-direction: row;    
+   }
+   .section2-block1-row3-items p{
+        width: 100%;
+        height: 100%;
+        font-size: 40px;
+        margin-top: 20%;
+        flex-wrap: wrap;
+   }
 }
 @media (max-width:800px){
-    section img{
+    .section1 img{
         display: none;
     }
     .section1 h1{
@@ -234,7 +309,44 @@ section span{
     .section1-p1{
         display: none;
     }
-
+    .section2-block2 img{
+        display: none;
+       } 
+    .section2-block1{
+        width: 100%;
+       }
+    .section2-block1 h2{
+        width: 100%;
+        margin-left: 25%;
+        flex-wrap: wrap;
+    }
+    .section2-block1 p{
+        width: 100%;
+        margin-left: 25%;
+        flex-wrap: wrap;
+    }
+    .section2-block1-row3{
+        margin-left: 18%;
+        
+    }
+    .section2-block1-row3{
+        width: 100%;
+        display: flex;
+        justify-content:space-between;
+    }
+    .section2-block1-row3 p{
+        width: 100%; 
+        margin-left:-0;
+        margin-right:-0;
+        margin-top:-0;
+        margin-left: 10%;
+        flex-wrap: wrap;
+        font-size: 13px;
+    }
+    .section2-block1-row3 img{
+        width: 31%;
+        height: 100%;
+    }
 }
 @media (max-width:1100px){
     .nav-ul-stage-600{
@@ -245,7 +357,6 @@ section span{
         width: 30%;
         width: 200px;
     }
-
     .section1-p1{
         display: none;
     }
