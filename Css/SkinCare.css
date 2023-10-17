@@ -549,7 +549,6 @@ nav .nav-menu{
     margin: 5px 0px 0px 13px;
     font-size: 24px; 
 }
-
 .section8-block1-1{
     width: 50%;
     height: 150px;
@@ -587,31 +586,7 @@ nav .nav-menu{
     color: black;
     margin-left: 13%;
 }
-@media (max-width: 300px) {
-    nav img{
-        margin-top: 10px;   
-    }
-    .section1 h1{
-        font-size: 30px;
-    }
-    section img{
-        display: none;
-    }
-    .section1-p1{
-        display: none;
-    }
-    .section1 button{
-        margin-top: 25px;
-        width:100%;
-    }
-    .section3 h1{
-        font-size: 15px;
-        margin-top: 35%;
-    }
-    .section3 .section-p{
-        font-size: 10px;
-    }  
-}
+
 footer{
     width: 100%;
     height: 300px;
@@ -650,6 +625,33 @@ footer img{
 .footer-ul{
     display: inline-flex;
 }
+
+@media (max-width: 300px) {
+    nav img{
+        margin-top: 10px;   
+    }
+    .section1 h1{
+        font-size: 30px;
+    }
+    section img{
+        display: none;
+    }
+    .section1-p1{
+        display: none;
+    }
+    .section1 button{
+        margin-top: 25px;
+        width:100%;
+    }
+    .section3 h1{
+        font-size: 15px;
+        margin-top: 35%;
+    }
+    .section3 .section-p{
+        font-size: 10px;
+    }  
+}
+
 @media (max-width: 600px) {
     .nav-bell .nav-li-h{
         display: inline-block;
@@ -660,7 +662,6 @@ footer img{
     text-transform: capitalize;
     font-weight: 600;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    
     }
     nav .nav-menu{
         display: block;
@@ -687,14 +688,13 @@ footer img{
     }
     nav img{
         width:70%;
-        padding: 5%;
+        margin-left: 10%;
     }
     nav li{
         display: block;
         line-height: 40px;   
     }
     .nav-ul-li-1 a{
-        border-bottom: 1px solid transparent;
         border-radius:2px;
         background-color: rgb(237, 227, 210);
     }
@@ -747,8 +747,8 @@ footer img{
    }
    .section2-block1-row3-items{
     margin-left: 10%;
-    width: 80%;
-    height: 25%;
+    width: 100%;
+    height: 30%;
     flex-direction: row;    
    }
    .section2-block1-row3-items p{
@@ -759,7 +759,7 @@ footer img{
         flex-wrap: wrap;
    }
    .section3{
-    margin-top: 28%;
+    margin-top: 30%;
    }
    .section3-block2{
     display: none;
@@ -782,6 +782,143 @@ footer img{
 .section3-block1-items-4{
     margin-left: 10%;
 }
+.section3 span{
+    position: absolute;
+    padding-left:4%;
+    width: 5%;
+    height: 15%;
+}
+.section4{
+    margin-top: 70%;
+}
+.section4-block1{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+.section4-block2{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+.section4-block-img-500{
+    display: none;
+}
+.section4 h1{
+    font-size: 20px;
+}
+.section4 p{
+    width: 80%;
+font-size: 17px;
+text-align: center;
+}
+.section4-block1-item-500{
+    display: none;
+}
+.section4-block1-items{
+    width: 25%;
+    margin-right: 5%;
+}
+.section5-block{
+    display: flex;
+    flex-direction:column;
+    margin-left: 10%;
+}
+.section5-block-items1{
+    margin-top: 3%;
+    display: flex;
+    width: 100%;
+    height: 180px;
+}
+.section5-block-items2{
+    margin-top: 3%;
+    display: flex;
+    width: 100%;
+    height: 180px;
+}
+.section5-block-items3{
+    margin-top: 3%;
+    display: flex;
+    width: 100%;
+    height: 180px;
+}
+.section5-block-items4{
+    margin-top: 3%;
+    display: flex;
+    width: 100%;
+    min-height: 100px;
+}
+.section5-block-items12 img{
+    margin-top:2%;
+    max-width: 30%;
+    min-height: 85%;
+    border-radius: 30px;
+}
+.section5-block-items12 h5{
+    max-width: 20%;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+}
+.section5-block-items1-p-5{
+    display: none;
+}
+.section6-block2{
+    display: none;
+}
+.section6-block1 h1{
+    margin-top: 10%;
+    font-size: 25px; 
+    min-width: 100%; 
+    font-weight: 400;
+}
+.section6-block1-p{
+    margin-top: 5%;
+    margin-bottom: 10%;
+    min-width: 100%;
+    font-weight: 600;
+    font-family:sans-serif;
+}
+.section7{
+    display: flex;
+    flex-direction: column;
+}
+.section7-iteam1{
+    min-width: 100%;
+    margin-left: 20%;
+}
+.section7-iteam2{
+   display: none;
+}
+.section7-iteam1 h1{
+   margin: 0px auto;
+    width: 40%;
+}
+.section7-iteam1-block{
+    max-width:80%;
+    min-height: 30%;
+}
+.section8-block1{
+    display: none;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+}
+@media(max-width:700px){
+    .section6 h1{
+        margin-top:5%;
+    }
+    .section7-iteam1{
+            width: 45%;
+    }
+    .section7-iteam2{
+        width: 40%;
+    }
+  
 }
 @media (max-width:800px){
     .section1 img{
@@ -835,6 +972,71 @@ footer img{
     .section3-block2{
         display: none;
     }
+    .section3-block1-items span{
+        margin-top: -7%;
+    }
+    .section3-block1{
+        width:100%;
+    }
+    .section3-block3{
+        width:100%;
+    }
+    .section5 img{
+        max-height: 90px;
+    }
+    .section6-block1 h1{
+        width: 70%;
+    }
+    .section7 h4{
+        font-size: 19px;
+    }
+    .section7-iteam2 p{
+        font-size: 15px;
+    }
+    .section8 button{
+       min-width: 40%;
+    }
+}
+@media (max-width:900px){
+    .section2-block1-row3-items{
+        width: 50%;
+    }
+    .section3-block1-items span{
+        margin-left: -9%;
+    }
+    .section5-block img{
+        height: 28%;
+    }
+    .section4-block1-items{
+        height: 85%;
+    }
+    .section6-block1 h1{
+            font-size: 28px;
+    }
+    .section6 p{
+            font-size: 13px;
+            line-height: 18px;
+    }
+    .section6 button{
+        min-width: 45%;
+        height: 40px;
+    }
+    .section7-iteam1-block img{
+        width: 15%;
+        height: 70px;
+    }
+    .section7-iteam2-img-div-900{
+        display: none;
+    }
+
+}
+@media (max-width:1000px){
+    .section4-block1-item-1000{
+        display: none;
+    }
+    .section8-block1-items-1000{
+        display: none;
+    }
 }
 @media (max-width:1100px){
     .nav-ul-stage-600{
@@ -848,11 +1050,22 @@ footer img{
     .section1-p1{
         display: none;
     }
+    .section6 button{
+        width:30%;
+        height: 40px;
+        margin-top: -0.001%;
+    }
+    .section8-block2 button{
+        width: 28%;
+        height: 40px;
+    }
+    .section8-block1-items{
+        height: 150px;
+        width:70%;
+        margin-left: 3px;
+    }
 }
-
-
 /* hovering desiigning */
-
 footer ul li a:hover{
     border-bottom: 3px solid rgb(25, 25, 66);
     border-left: 3px solid rgb(25, 25, 66);
