@@ -650,6 +650,29 @@ footer img{
     .section3 .section-p{
         font-size: 10px;
     }  
+    .section2{
+        margin-bottom: 40%;
+    }
+}
+@media (max-width:400px){
+    .section3{
+        padding-top: 20%;
+    } 
+    .section4{
+        padding-top: 20%;
+    }
+    .section-6-400{
+        display: none;
+    }
+    .section8-400{
+        display: none;
+    }
+    .section3-p-400{
+        text-align: center;
+    }
+    .section7-p-400{
+        min-width:100%;
+    }
 }
 
 @media (max-width: 600px) {
